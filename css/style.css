@@ -66,13 +66,13 @@ body {
 
 #blog-body {
   width: 700px;
-  padding: 80px 0;
+  padding: 60px 0;
   float: left;
 }
 
 #sidebar {
   width: 240px;
-  padding-top: 60px;
+  padding-top: 80px;
   float: right;
 }
 
@@ -89,6 +89,7 @@ header {
 footer {
   padding: 30px;
   background-color: #121212;
+  text-align: center;
 }
 
 h2 {
@@ -99,7 +100,7 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 800;
   color: #033048;
   padding-bottom: 20px;
@@ -112,7 +113,7 @@ p {
 }
 
 p:first-letter {
-    font-size: 48pt;
+    font-size: 66px;
     font-weight: 600;
     padding-right: 1%;
     float: left;
@@ -121,6 +122,12 @@ p:first-letter {
 
 img {
   padding-bottom: 20px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px;
 }
 
 .blog-article {
@@ -154,19 +161,19 @@ img {
 }
 
 .category {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   color: #033048;
 }
 
 .sidebar-text {
-  font-size: 22px;
+  font-size: 24px;
   padding-bottom: 20px;
   color: #033048;
 }
 
 .more {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   padding-bottom: 20px;
   color: #033048;
@@ -194,11 +201,6 @@ img {
   font-size: 24px;
   background-color: #033048;
   color: white;
-}
-
-.social {
-  text-align: center;
-  padding: 0 20px;
 }
 
 .copyright {
